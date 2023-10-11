@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(191, 0, 255);
+}
+
+.form-container {
+    background-color: white;
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"]{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid rgb(191, 0, 255);
+    background-color: #00fff2;
+    border-radius: 3px;
+}
+
+textarea{
+    width: 90%;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid rgb(191, 0, 255);
+    background-color: #00fff2;
+    border-radius: 3px;
+}
+
+button {
+    background-color: rgb(191, 0, 255);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
